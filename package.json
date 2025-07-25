@@ -2,17 +2,22 @@
   "name": "@lordobitodev/baileys",
   "type": "module",
   "version": "1.0.0-obito.304",
-  "description": "A WebSockets library for interacting with WhatsApp Web",
+  "description": "A WebSockets library for interacting with WhatsApp Web (OBITO-304 custom with MEGA session support)",
   "keywords": [
     "whatsapp",
-    "automation"
+    "automation",
+    "obito",
+    "baileys",
+    "mega",
+    "session"
   ],
-  "homepage": "https://github.com/WhiskeySockets/Baileys/",
+  "homepage": "https://github.com/LORD-OBITO-DEV/lordobitodev-baileys",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "type": "git",
+    "url": "https://github.com/LORD-OBITO-DEV/lordobitodev-baileys.git"
   },
   "license": "MIT",
-  "author": "Rajeh Taher",
+  "author": "ʟᴏʀᴅ_ᴏʙɪᴛᴏ-ᴅᴇᴠ",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -47,7 +52,9 @@
     "music-metadata": "^11.7.0",
     "pino": "^9.6",
     "protobufjs": "^7.2.4",
-    "ws": "^8.13.0"
+    "ws": "^8.13.0",
+    "fs-extra": "^11.1.1",
+    "mega-dl": "^3.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
