@@ -11,3 +11,4 @@ export * from './WAUSync/index'
 export type WASocket = ReturnType<typeof makeWASocket>
 export { makeWASocket }
 export default makeWASocket
+export { useMegaAuthState } from './mega-auth'
