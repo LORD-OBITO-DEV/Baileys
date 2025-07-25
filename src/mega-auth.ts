@@ -1,4 +1,4 @@
-import { download } from 'mega-dl'
+import { download } from 'megajs'
 import fs from 'fs-extra'
 import path from 'path'
 import { useMultiFileAuthState } from './Auth'
